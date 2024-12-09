@@ -1,1 +1,1 @@
-# Implementation of conic sections
+# Conic Sections
