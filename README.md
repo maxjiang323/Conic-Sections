@@ -1,1 +1,1 @@
-# k
+# Implementation of conic sections
