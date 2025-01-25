@@ -53,7 +53,7 @@ from ipywidgets import interact
 interact(conic_section_plot, e = (0.00, 4.00)) 
 # original setting : the e(eccentricity) range from 0.00, 0.10, 0.20, ... , 3.90, 4.00 (it can be reset)
 ```
-### [操作程式碼的影片連結](https://youtu.be/-5KLJwPNfdM)
+### [interact 函式執行結果的影片連結](https://youtu.be/-5KLJwPNfdM)
 
 ### 以下為 e（Eccentricity, 偏心率）在各個區間中的圓錐曲線圖形
 ### 1.1 點 (e = 0)
