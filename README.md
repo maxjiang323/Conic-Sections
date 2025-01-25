@@ -1,6 +1,6 @@
-# 圓錐曲線實作 – 圓錐曲線及極座標參數式（以下內容與 Jupyter Notebook 中的程式碼相同）
-下面的實作我分成兩個部分。第一個是以圓錐曲線的「極座標」參數式畫圖，因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不支援編譯 interact 這個函式，所以我將其「操作過程」拍成影片附上連結，而使用 Github 線上瀏覽程式碼時，連結下面的圖片僅是使用 interact 這函式的部分程式的執行結果的截圖。
-- 註記：前面的假設我全部都用英文來寫
+# 圓錐曲線實作 – 圓錐曲線及極座標參數式
+第一部分為小論文「離」不「圓」了的研究內容，使用 Jupyter Notebook 以圓錐曲線的「極座標」參數式畫圖。因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在後面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
+- 註記：以下內容與程式檔中的第一部分相同
 
 ## 1. 圓錐曲線及「極座標」參數式
 Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
@@ -51,7 +51,7 @@ interact(conic_section_plot, e = (0.00, 4.00))
 ```
 ### [操作程式碼的影片連結](https://youtu.be/-5KLJwPNfdM)
 
-### 以下各個區間中 e（Eccentricity, 偏心率）的圓錐曲線圖形
+### 以下為 e（Eccentricity, 偏心率）在各個區間中的圓錐曲線圖形
 ### 1.1 點 (e = 0)
 ![image](https://github.com/user-attachments/assets/3012cf5d-3cd0-4669-86c2-986b704ce845)
 
@@ -59,10 +59,11 @@ interact(conic_section_plot, e = (0.00, 4.00))
 ![image](https://github.com/user-attachments/assets/9099b453-5e08-4a0a-8ab9-a62fa16a9d4b)
 
 ### 1.3 拋物線 (e = 1)
-![image](https://github.com/user-attachments/assets/a976b751-53fb-4907-813a-8099845d5a08)
+![image](https://github.com/user-attachments/assets/13c8b580-9e8a-4220-8d18-8a559bb1e190)
 
 ### 1.4 雙曲線 (e > 1, e = 1.5)
 ![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
+
 
 
 
