@@ -67,9 +67,3 @@ interact(conic_section_plot, e = (0.00, 4.00))
 
 ### 1.4 雙曲線 (e > 1, e = 1.5)
 ![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
-
-
-
-
-
-
