@@ -3,9 +3,9 @@
 - 註記：前面的假設我全部都用英文來寫
 
 ## 1. 圓錐曲線及「極座標」參數式
-$r=\frac{ed}{1+e·cos\theta}\ , (0\le\theta\le2\pi)\ , P[r, \theta]$
+Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
 
-Use the equation and the moving point $P\;$:
+Use the equation and the moving point $P$:
 $r=\frac{ed}{1+e·cos\theta}\ , (0\le\theta\le2\pi)\ , P[r, \theta]$
 to demonstrate the plot of conic section.
 ```python
@@ -52,8 +52,19 @@ interact(conic_section_plot, e = (0.00, 4.00))
 ### [操作程式碼的影片連結](https://youtu.be/-5KLJwPNfdM)
 
 ### 以下各個區間中 e（Eccentricity, 偏心率）的圓錐曲線圖形
-### 1.1 e = 0
+### 1.1 點 (e = 0)
 ![image](https://github.com/user-attachments/assets/3012cf5d-3cd0-4669-86c2-986b704ce845)
 
-### 1.2 0 < e < 1
+### 1.2 橢圓 (0 < e < 1, e = 0.9)
+![image](https://github.com/user-attachments/assets/9099b453-5e08-4a0a-8ab9-a62fa16a9d4b)
+
+### 1.3 拋物線 (e = 1)
+![image](https://github.com/user-attachments/assets/a976b751-53fb-4907-813a-8099845d5a08)
+
+### 1.4 雙曲線 (e > 1, e = 1.5)
+![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
+
+
+
+
 
