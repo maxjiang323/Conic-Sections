@@ -1,8 +1,8 @@
-# 圓錐曲線實作 – 圓錐曲線及極座標參數式
-第一部分為小論文「離」不「圓」了的研究內容，使用 Jupyter Notebook 環境以 Python 程式圓錐曲線的「極座標」參數式畫出不同偏心率下的圓錐曲線圖形。因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在後面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
+# 圓錐曲線實作 – 圓錐曲線和極座標方程式
+第一部分為小論文「離」不「圓」了的研究內容，在 Jupyter Notebook 的環境下，以 Python 程式繪製出不同離心率下，圓錐曲線的極座標方程式呈現的圖形。因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在後面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
 - 註記：以下內容與程式檔中的第一部分相同
 
-## 1. 圓錐曲線及「極座標」參數式
+## 1. 圓錐曲線和極座標方程式
 Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
 
 Use the equation and the moving point $P\ $:
@@ -19,7 +19,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 ```python
-def conic_section_plot(e): # e--> Eccentricity(偏心率)
+def conic_section_plot(e): # e--> Eccentricity(離心率)
     d = 3 # d --> d(F, L)
     theta = np.arange(0, 2*np.pi, 0.001) 
     r = (e*d)/(1+e*np.cos(theta)) 
@@ -55,7 +55,7 @@ interact(conic_section_plot, e = (0.00, 4.00))
 ```
 ### [interact 函式執行結果的影片連結](https://youtu.be/-5KLJwPNfdM)
 
-### 以下為 e（Eccentricity, 偏心率）在各個區間中的圓錐曲線圖形
+### 以下為 e（Eccentricity, 離心率）在各個區間中的圓錐曲線圖形
 ### 1.1 點 (e = 0)
 ![image](https://github.com/user-attachments/assets/3012cf5d-3cd0-4669-86c2-986b704ce845)
 
