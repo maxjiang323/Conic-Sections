@@ -3,14 +3,14 @@
 - 註記：以下內容與程式檔中的第一部分相同
 
 ## 1. 圓錐曲線及「極座標」參數式
+Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
+
+Use the equation and the moving point $P\ $:
+
 <p align="center">
 <a href="[https://www.codecogs.com/eqnedit.php?latex=x_s(t)=\sum_{n}x_c(nT)\delta(t-nT)](https://latex.codecogs.com/svg.image?&space;r=\frac{ed}{1&plus;e\cdot&space;cos\mathit{\theta}},(0\leq\mathit{\theta}\leq&space;2\pi);\mathit{P[r,\theta]}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?r=\frac{ed}{1&plus;e\cdot&space;cos\mathit{\theta}},(0\leq\mathit{\theta}\leq&space;2\pi);\mathit{P[r,\theta]}" title="polar equation" /></a>
 </p>
 
-Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
-
-Use the equation and the moving point $P$:
-$r=\frac{ed}{1+e·cos\theta}\ , (0\le\theta\le2\pi)\ , P[r, \theta]$
 to demonstrate the plot of conic section.
 ```python
 %matplotlib inline
