@@ -50,8 +50,8 @@ def conic_section_plot(e): # e--> Eccentricity(離心率)
 ```
 ```python
 from ipywidgets import interact
-interact(conic_section_plot, e = (0.00, 4.00)) 
-# original setting : the e(eccentricity) range from 0.00, 0.10, 0.20, ... , 3.90, 4.00 (it can be reset)
+interact(conic_section_plot, e = (0.00, 3.00)) 
+# original setting : the e(eccentricity) range from 0.00, 0.10, 0.20, ... , 2.90, 3.00 (it can be reset)
 ```
 - 因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在下面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
 ### [interact 函式執行結果的影片連結](https://youtu.be/-5KLJwPNfdM)
