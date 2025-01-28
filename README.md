@@ -1,7 +1,6 @@
 # 圓錐曲線實作 – 圓錐曲線和極座標方程式
 - 作者（Author）：姜名孺（Ming-Ju Chiang）
-- 第一部分為小論文「離」不「圓」了的研究內容，在 Jupyter Notebook 的環境下，以 Python 程式繪製出不同離心率下，極座標方程式呈現的圓錐曲線圖形。
-    - 註記：以下內容與程式檔中的第一部分相同
+- 以下為小論文「離」不「圓」了的研究內容，在 Jupyter Notebook 的環境下，以 Python 程式繪製出不同離心率下，極座標方程式呈現的圓錐曲線圖形。
 
 ## 1. 圓錐曲線和極座標方程式
 Define  $F(0, 0)$ is a fixed point ; $L:x = 3$ is a fixed line ; $P$ is a moving point on the plot of conic section , the polar coordinate of $P$ is $[r, \theta]$. $e$ is the eccentricity of the plot which $P$ forms, $d=d(F, L)=3$.
@@ -69,3 +68,6 @@ interact(conic_section_plot, e = (0.00, 4.00))
 
 ### 1.4 雙曲線 (e > 1, e = 1.5)
 ![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
+
+### 附錄：GeoGebra 圓錐曲線極座標方程式 (線上互動版）
+<iframe src="https://www.geogebra.org/classic/gf6vub8h?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
