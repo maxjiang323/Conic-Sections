@@ -70,4 +70,4 @@ interact(conic_section_plot, e = (0.00, 4.00))
 ![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
 
 ### 附錄：GeoGebra 圓錐曲線極座標方程式 (線上互動版）
-[]("https://www.geogebra.org/classic/gf6vub8h?embed")
+[](https://www.geogebra.org/classic/gf6vub8h?embed)
