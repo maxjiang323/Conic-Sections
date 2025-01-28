@@ -53,7 +53,7 @@ from ipywidgets import interact
 interact(conic_section_plot, e = (0.00, 4.00)) 
 # original setting : the e(eccentricity) range from 0.00, 0.10, 0.20, ... , 3.90, 4.00 (it can be reset)
 ```
-- 因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在後面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
+- 因為在 Github 線上瀏覽 Jupyter Notebook 的程式碼和執行結果時，不會顯示 interact 這個函式的執行結果，所以我將其操作過程及成果展示拍成影片，在下面附上影片連結。使用 Github 線上瀏覽程式碼時，連結下面的圖片是使用 interact 這函式的執行結果的截圖。
 ### [interact 函式執行結果的影片連結](https://youtu.be/-5KLJwPNfdM)
 
 ### 以下為 e（Eccentricity, 離心率）在各個區間中的圓錐曲線圖形
@@ -68,6 +68,3 @@ interact(conic_section_plot, e = (0.00, 4.00))
 
 ### 1.4 雙曲線 (e > 1, e = 1.5)
 ![image](https://github.com/user-attachments/assets/e8ec8c86-012d-4121-8013-f4ad5035eab3)
-
-### 附錄：GeoGebra 圓錐曲線極座標方程式 (線上互動版）
-[](https://www.geogebra.org/classic/gf6vub8h?embed)
