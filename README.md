@@ -7,4 +7,4 @@
 
 - [專案連結](https://github.com/maxjiang323/Conic-Sections)  
 
-<video controls src="https://github.com/user-attachments/assets/dec4ff48-c45a-4afd-ab32-878738c7138b" title="Conic Sections" width="300"></video>
+<video controls src="https://github.com/user-attachments/assets/dec4ff48-c45a-4afd-ab32-878738c7138b" title="Conic Sections" width="600"></video>
